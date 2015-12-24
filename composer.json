@@ -1,0 +1,29 @@
+{
+	"name" : "sasedev/doctrine-postgresql-bundle",
+	"description" : "Providing custom Doctrine's PostgreSQL DBAL types",
+	"version" : "1.0.0",
+	"require" : {
+		"php" : ">=5.5",
+		"doctrine/dbal" : "~2.5",
+		"symfony/config" : "~2.8|~3.0",
+		"symfony/dependency-injection" : "~2.8|~3.0",
+		"symfony/http-kernel" : "~2.8|~3.0"
+	},
+	"license" : "MIT",
+	"keywords" : ["symfony2", "doctrine", "dbal", "postgresql", "hstore", "dateinterval", "array", "box"],
+	"extra" : {
+		"branch-alias" : {
+			"dev-master" : "1.0.x-dev"
+		}
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Sasedev\\Doctrine\\PostgresqlBundle\\" : "src/Sasedev/Doctrine/PostgresqlBundle"
+		}
+	},
+	"type" : "symfony-bundle",
+	"authors" : [ {
+		"name" : "Salah Abdelkader Seif Eddine",
+		"email" : "seif.salah@gmail.com"
+	} ]
+}
