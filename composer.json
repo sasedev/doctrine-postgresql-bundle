@@ -1,7 +1,6 @@
 {
 	"name" : "sasedev/doctrine-postgresql-bundle",
 	"description" : "Providing custom Doctrine's PostgreSQL DBAL types",
-	"version" : "1.0.0",
 	"require" : {
 		"php" : ">=5.5",
 		"doctrine/dbal" : "~2.5",
