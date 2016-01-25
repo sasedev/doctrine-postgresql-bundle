@@ -51,7 +51,7 @@ class SasedevDoctrinePostgresqlBundle extends Bundle
 		if (Type::hasType(DateIntervalType::DATEINTERVAL)) {
 			Type::overrideType(DateIntervalType::DATEINTERVAL, 'Sasedev\Doctrine\PostgresqlBundle\DBAL\DateIntervalType');
 		} else {
-			Type::addType(DateIntervalType::DATEINTERVAL, 'Sasedev\Doctrine\PostgreaesqlBundle\DBAL\DateIntervalType');
+			Type::addType(DateIntervalType::DATEINTERVAL, 'Sasedev\Doctrine\PostgresqlBundle\DBAL\DateIntervalType');
 		}
 		if (Type::hasType(FloatArrayType::FLOATARRAY)) {
 			Type::overrideType(FloatArrayType::FLOATARRAY, 'Sasedev\Doctrine\PostgresqlBundle\DBAL\FloatArrayType');
