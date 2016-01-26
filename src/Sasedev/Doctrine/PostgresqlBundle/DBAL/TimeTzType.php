@@ -34,7 +34,7 @@ class TimeTzType extends Type
 	 */
 	public function getSQLDeclaration(array $fieldDeclaration, AbstractPlatform $platform)
 	{
-		return $platform->getDoctrineTypeMapping('TIMETZ');
+		return $platform->getDoctrineTypeMapping('timetz');
 	}
 
 	/**
