@@ -17,7 +17,7 @@ class TimeTzType extends Type
 	 *
 	 * @var string
 	 */
-	const TIME_TZ = 'timetz';
+	const TIMETZ = 'timetz';
 
 	/**
 	 *
