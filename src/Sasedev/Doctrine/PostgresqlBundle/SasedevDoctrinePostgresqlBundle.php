@@ -83,10 +83,10 @@ class SasedevDoctrinePostgresqlBundle extends Bundle
 		} else {
 			Type::addType(TextArrayType::TEXTARRAY, 'Sasedev\Doctrine\PostgresqlBundle\DBAL\TextArrayType');
 		}
-		if (Type::hasType(TimeTzType::TIME_TZ)) {
-			Type::overrideType(TimeTzType::TIME_TZ, 'Sasedev\Doctrine\PostgresqlBundle\DBAL\TimeTzType');
+		if (Type::hasType(TimeTzType::TIMETZ)) {
+			Type::overrideType(TimeTzType::TIMETZ, 'Sasedev\Doctrine\PostgresqlBundle\DBAL\TimeTzType');
 		} else {
-			Type::addType(TimeTzType::TIME_TZ, 'Sasedev\Doctrine\PostgresqlBundle\DBAL\TimeTzType');
+			Type::addType(TimeTzType::TIMETZ, 'Sasedev\Doctrine\PostgresqlBundle\DBAL\TimeTzType');
 		}
 	}
 }

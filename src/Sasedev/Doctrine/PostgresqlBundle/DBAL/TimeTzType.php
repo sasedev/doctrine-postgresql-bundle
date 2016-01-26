@@ -17,7 +17,7 @@ class TimeTzType extends Type
 	 *
 	 * @var string
 	 */
-	const TIME_TZ = 'time_tz';
+	const TIME_TZ = 'timetz';
 
 	/**
 	 *
@@ -25,7 +25,7 @@ class TimeTzType extends Type
 	 */
 	public function getName()
 	{
-		return self::TIME_TZ;
+		return self::TIMETZ;
 	}
 
 	/**
@@ -34,7 +34,7 @@ class TimeTzType extends Type
 	 */
 	public function getSQLDeclaration(array $fieldDeclaration, AbstractPlatform $platform)
 	{
-		return $platform->getDoctrineTypeMapping('TIME_TZ');
+		return $platform->getDoctrineTypeMapping('TIMETZ');
 	}
 
 	/**
